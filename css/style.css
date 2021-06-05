@@ -7,8 +7,10 @@ body{
 	background-image: url(../img/top-banner.png);
 	background-repeat: no-repeat;
 	
-	margin-left: 6%;
-	padding-left: 3%;
+	
+	
+	height: 80vh;
+	width: 100%;
 
 }
 
@@ -50,53 +52,79 @@ body{
 }
 
 
-
 .welcome2{
-	background-image: url(../img/top-banner.png);
+	background-image: url(../img/top-banner1.jpg);
+	height: 80vh;
+	width: 100%;
 	background-repeat: no-repeat;
-	
-	margin-left: 6%;
-	padding-left: 3%;
-
+	background-position: right;
 }
 
 .right{
-	
 	width: 40%;
 	float: left;
 	margin-left: 5%;
 	padding-left: 2%;
+
 }
 .right h1{
 	font-family: 'Poppins', sans-serif;
 	font-size: 70px;
-	
 }
-.er{
-	color: orange;
-}
-.right p{
-	width: 70%;
-}
-.btn{
-	    background-color: orange;
-    /* padding: 10px 10px; */
-    color: white;
-    /* padding-top: 15px; */
-    /* padding-left: 30px; */
-    /* padding-right: 30px; */
-    line-height: 15px;
-    height: 40px;
-    width: 136px;
-    border: none;
-    border-radius: 5px;
+
+.right h4{
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
 }
 .right img{
 	width: 100%;
+}
 
+button{
+	    
+    margin-right: 30px;
+    margin-left: 123px;
+    background: orange;
+    width: 152px;
+    height: 47px;
+    border: none;
+    border-radius: 11px;
+    color: white;
+
+}
+.EX{
+	width: 100%;
+	height: 80vh;
+	background-image: url(../img/exp-bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.EX h1{
+	font-family: 'Poppins', sans-serif;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 60px;
 
 }
 
-.ex{
-	width: 100%;
+.tr{
+	width: 40%;
+	margin-left: 5%;
+	padding-left: 2%;
+	float: left;
+	box-shadow: 10px 10px 40px grey;
+	height: 32vh;
+	border-left:8px solid  ;
+	border-image: linear-gradient(180deg,blue,cyan);
+	border-image-slice: 1;
+}
+.tr h1{s
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	
+}
+
+footer{
+	text-align: center;
+	color: grey;
 }
